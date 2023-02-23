@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to right, rgb(235, 235, 235), rgb(0, 0, 0));
+}
+
+/* essa parte meche no fundo do site mudando a cor, esse "to right" é pra fazer combinação de duas cores deixar mais bonito*/
+
+.entrada {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(20, 17, 17, 0.8);
+    padding: 15px;
+    color: rgb(255, 255, 255);
+}
+
+/* deixar o formulario centralizado no centro da tela */
+
+fieldset {
+    border: 3px solid dodgerblue;
+}
+
+/* deixar a borda do formulario azul */
+
+legend {
+    border: 1px solid blue;
+    padding: 10px;
+    text-align: center;
+    background-color: blue;
+}
+
+/* Deixar a legenda com borda e mais bonita  */
+
+.inputBox {
+    position: relative;
+    color: rgb(155, 187, 214);
+}
+
+/* Deixar  os inputs na posição certa  de acordo com oque coloquei nos elementos acima */
+
+.inputUser {
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    outline: none;
+    color: white;
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+
+/* Visual das letras dentro do input */
+
+.labelInput {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+/* Animação do label */
+
+.inputUser:focus~.labelInput,
+.inputUser:valid~.labelInput {
+    top: -20px;
+    font-size: 12px;
+    color: dodgerblue;
+
+}
+
+/* Animação dos inputs*/
+
+#submit {
+
+    background-image: linear-gradient(to right, rgb(20, 147, 220), rgb(17, 54, 71));
+    width: 100%;
+}
+
+/* Deixar o botao bonito*/
+
+#nascimento {
+    padding: 8px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+
+/* Deixar o input nascimento mais bonito*/

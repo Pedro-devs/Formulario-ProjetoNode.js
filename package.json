@@ -1,0 +1,16 @@
+{
+  "name": "formulario-de-clientes",
+  "version": "1.0.0",
+  "description": "Site para pegar informações sobre os clientes e conectar no banco de dados MySQL ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pedro Henrique Andreatti",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.1.2",
+    "sequelize": "^6.28.0"
+  }
+}
